@@ -1,0 +1,22 @@
+% Basic preamble for pandoc reports
+
+% Use charter font
+\usepackage{charter}
+
+% Alternatively, use helvetica
+% \usepackage{helvet}
+% \renewcommand{\familydefault}{\sfdefault}
+
+% Or, default sans serif
+% \usepackage{helvet}
+% \renewcommand{\familydefault}{\sfdefault}
+
+% Latex / pandoc hacks to force inline figure positioning 
+% See: 
+% https://github.com/jgm/pandoc/issues/845 
+% https://tex.stackexchange.com/questions/8625/force-figure-placement-in-text
+
+\usepackage{float}
+\makeatletter
+\def\fps@figure{H}
+\makeatother

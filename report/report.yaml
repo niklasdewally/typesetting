@@ -1,0 +1,23 @@
+# pandoc settings for reports
+
+input-file: report.md
+output-file: report.pdf
+
+include-in-header: 
+  - preamble.tex
+
+resource-path: ['.','figures']
+
+# writer settings
+standalone: true
+highlight-style: haddock
+
+# citations
+citeproc: true
+bibliography: references.bib
+csl: ieee.csl
+
+# document metadata
+metadata:
+  link-citations: true
+
