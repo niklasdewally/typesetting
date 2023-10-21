@@ -20,4 +20,5 @@ csl: ieee.csl
 # document metadata
 metadata:
   link-citations: true
+  geometry: a4paper
 
