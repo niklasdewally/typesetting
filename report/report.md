@@ -2,7 +2,7 @@
 title: My practical report
 author: MATRIC NUMBER
 date: Wednesday 12th April
-...
+---
 
 
 # Overview
