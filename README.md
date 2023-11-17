@@ -19,3 +19,8 @@ To write a report using this, I copy this folder, and edit `report.md` and
   well as force figures to appear in the place they are in the report.
 
 * Pandoc settings are specified in `report.yaml`
+
+
+## Quarto-Report
+
+Similar to report, but using the Quarto system (which itself calls pandoc).

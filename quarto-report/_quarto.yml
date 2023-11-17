@@ -1,0 +1,33 @@
+project:
+  render: ["report.md"]
+  output-dir: .
+
+
+resource-path: ['.','figures']
+bibliography: references.bib  
+csl: ieee-with-url.csl
+
+link-citations: true
+links-as-notes: true # links as footnotes
+number-sections: true
+
+format:
+  html:
+    html-math-method: katex
+  pdf:
+    pdf-engine: pdflatex
+    documentclass: scrartcl
+    papersize: a4
+    geometry: a4paper
+    highlight-style: haddock
+    header-includes: |
+      \usepackage{charter}
+    classoption: headings=standardclasses,headings=big,
+
+
+
+
+
+
+
+
