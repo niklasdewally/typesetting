@@ -12,6 +12,7 @@ quarto install tool tinytex
 render Markdown to LaTeX. If you are running Quarto's built-in `TinyTeX`, or
 `TexLive` it should automatically install missing packages for you on build.
 
+See [Quarto Manual - PDF Engines](https://quarto.org/docs/output-formats/pdf-engine.html).
 ## St Andrews Lab Machines
 
 **Although lab machines have `TeXLive`, this does not seem to work with Quarto.
