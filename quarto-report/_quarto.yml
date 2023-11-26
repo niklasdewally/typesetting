@@ -14,10 +14,10 @@ number-sections: true
 date-format: full
 
 format:
-  html:
-    html-math-method: katex
   pdf:
     pdf-engine: pdflatex
+    # use quarto's latexmk wrapper to auto install missing packages
+    latex-auto-mk : true
     documentclass: scrartcl
     papersize: a4
     geometry: a4paper
