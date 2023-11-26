@@ -1,5 +1,5 @@
 project:
-  render: ["report.md"]
+  render: ["report.qmd"]
   output-dir: .
 
 
