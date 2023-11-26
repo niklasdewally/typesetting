@@ -1,2 +1,4 @@
 /.quarto/
 report_files
+*.pdf
+*.html
